@@ -17,8 +17,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.somethings);
-        mediaPlayer.start(); // no need to call prepare(); create() does that for you
         mediaPlayer.setLooping(true);
+        mediaPlayer.start(); // no need to call prepare(); create() does that for you
+        
 
 
     }
