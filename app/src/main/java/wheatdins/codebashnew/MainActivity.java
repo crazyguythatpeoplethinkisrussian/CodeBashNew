@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.somethings);
         mediaPlayer.setLooping(true);
         mediaPlayer.start(); // no need to call prepare(); create() does that for you
-        
+
 
 
     }
